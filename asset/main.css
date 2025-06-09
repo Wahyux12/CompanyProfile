@@ -1,0 +1,52 @@
+/* Universal Selector */
+* {
+    font-family: Arial; 
+}
+
+/* Tipe selector */
+h1{
+    color: blue;
+}
+h2{
+    color: blueviolet;
+}
+
+/* Class selector */
+li.Base{
+    color: red;
+}
+
+/* Id selector */
+#desa{
+    color: green;
+}
+
+/* child selector */
+p>b {
+    color: chocolate;
+}
+
+p>i {
+    color: cadetblue;
+}
+
+li>b {
+    color: wheat;
+}
+
+/* Decendant selector */
+p b {
+    color: darkblue;
+}
+
+/* adjacent sibling selector  */
+p+h3 {
+    color: royalblue;
+}
+
+/* general sibling selector */
+h3~p {
+    font-family:Cambria;
+    color: palevioletred;
+    font-size: larger;
+}
